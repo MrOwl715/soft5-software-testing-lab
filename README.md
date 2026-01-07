@@ -40,6 +40,7 @@ unit_test/
 └── README.md                  # Hướng dẫn chi tiết cho bài Lab
 
 <details> <summary><b>📸 Bấm vào đây để xem ảnh chụp màn hình Test Result</b></summary>
+<img width="1223" height="789" alt="image" src="https://github.com/user-attachments/assets/01c2af18-9f61-45df-867e-5506894780b5" />
 
 
 
