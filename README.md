@@ -39,12 +39,12 @@ unit_test/
 ├── pom.xml                    # Khai báo thư viện JUnit Jupiter 5.9.2
 └── README.md                  # Hướng dẫn chi tiết cho bài Lab
 ```
-<details> <summary><b>📸 Bấm vào đây để xem ảnh chụp màn hình Test Result</b></summary>
+**Minh chứng**
 <img width="1223" height="789" alt="image" src="https://github.com/user-attachments/assets/01c2af18-9f61-45df-867e-5506894780b5" />
 
 
 
-</details>
+
 
 Copyright © 2026 - [Tên Của Bạn]. Created for educational purpose.
 
