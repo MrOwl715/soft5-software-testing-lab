@@ -9,7 +9,7 @@
 <b>Jan 5th 2026<b/>
 <p>Cant's See Practition Test</p>
 
-<img width="867" height="872" alt="image" src="https://github.com/user-attachments/assets/91ee5020-5f77-451c-b2aa-1c02c24c9223" />
+<img width="433" height="341" alt="image" src="https://github.com/user-attachments/assets/91ee5020-5f77-451c-b2aa-1c02c24c9223" />
 
 ## 📂 Bài tập Unit Testing với JUnit
 
@@ -38,7 +38,7 @@ unit_test/
 │   └── test/java/student/     # Source code kiểm thử (StudentAnalyzerTest.java)
 ├── pom.xml                    # Khai báo thư viện JUnit Jupiter 5.9.2
 └── README.md                  # Hướng dẫn chi tiết cho bài Lab
-
+```
 <details> <summary><b>📸 Bấm vào đây để xem ảnh chụp màn hình Test Result</b></summary>
 <img width="1223" height="789" alt="image" src="https://github.com/user-attachments/assets/01c2af18-9f61-45df-867e-5506894780b5" />
 
@@ -47,3 +47,5 @@ unit_test/
 </details>
 
 Copyright © 2026 - [Tên Của Bạn]. Created for educational purpose.
+
+
