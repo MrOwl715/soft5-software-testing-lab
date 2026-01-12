@@ -1,19 +1,19 @@
-# 🧪 SOFT5 - Software Testing Lab
+#  SOFT5 - Software Testing Lab
 ### CMC University
 
 <p><b>Student:</b> Đinh Trần Nguyên</p> 
 <p><b>ID:</b> BIT230292 </p>
 <p><b>Instructor:</b> Trương Anh Hoàng</p> 
 
-## 📂 Bài tập Làm quen Can't Unsee
+##  Bài tập Làm quen Can't Unsee
 <b>Jan 5th 2026<b/>
 <p>Cant's See Practition Test</p>
 
 <img width="433" height="341" alt="image" src="https://github.com/user-attachments/assets/91ee5020-5f77-451c-b2aa-1c02c24c9223" />
 
-## 📂 Bài tập Unit Testing với JUnit
+##  Bài tập Unit Testing với JUnit
 
-### 1. 📝 Mô tả bài toán (Problem Description)
+### 1.  Mô tả bài toán (Problem Description)
 **Chủ đề:** Phân tích dữ liệu điểm số học sinh (`StudentAnalyzer`).
 
 Mục tiêu là xây dựng một lớp xử lý logic để phân tích danh sách điểm số và viết các Test Case tự động để đảm bảo logic chạy đúng.
@@ -39,13 +39,14 @@ unit_test/
 ├── pom.xml                    # Khai báo thư viện JUnit Jupiter 5.9.2
 └── README.md                  # Hướng dẫn chi tiết cho bài Lab
 ```
-**Minh chứng**
-<img width="1223" height="789" alt="image" src="https://github.com/user-attachments/assets/01c2af18-9f61-45df-867e-5506894780b5" />
+<p><b>Minh chứng</b><p/>
+
+<img width="612" height="394" alt="image" src="https://github.com/user-attachments/assets/01c2af18-9f61-45df-867e-5506894780b5" />
 
 
 
 
 
-Copyright © 2026 - [Tên Của Bạn]. Created for educational purpose.
+Copyright © 2026 - Nguyen.DinhTran. Created for educational purpose.
 
 
