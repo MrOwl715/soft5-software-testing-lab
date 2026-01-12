@@ -1,9 +1,9 @@
 # 🧪 SOFT5 - Software Testing Lab
 ### CMC University
 
-> **Student:** Dinh Tran Nguyen
-> **ID:** BIT230292 
-> **Instructor:** Truong Anh Hoang
+<p><b>Student:</b> Đinh Trần Nguyên</p> 
+<p><b>ID:</b> BIT230292 </p>
+<p><b>Instructor:</b> Trương Anh Hoàng</p> 
 
 ## 📂 Bài tập Làm quen Can't Unsee
 <b>Jan 5th 2026<b/>
