@@ -41,7 +41,7 @@ unit_test/
 ```
 <p><b>Minh chứng</b><p/>
 
-<img width="612" height="394" alt="image" src="https://github.com/user-attachments/assets/01c2af18-9f61-45df-867e-5506894780b5" />
+<img width="433" height="341" alt="image" src="https://github.com/user-attachments/assets/01c2af18-9f61-45df-867e-5506894780b5" />
 
 
 
