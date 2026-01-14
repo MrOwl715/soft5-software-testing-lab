@@ -39,12 +39,49 @@ unit_test/
 ├── pom.xml                    # Khai báo thư viện JUnit Jupiter 5.9.2
 └── README.md                  # Hướng dẫn chi tiết cho bài Lab
 ```
-<p><b>Minh chứng</b><p/>
+### 3. Minh chứng
 
 <img width="433" height="341" alt="image" src="https://github.com/user-attachments/assets/01c2af18-9f61-45df-867e-5506894780b5" />
 
 
+## Bài tập Kiểm thử Tự động E2E với Cypress
 
+### 1. Mô tả bài toán
+**Chủ đề:** Kiểm thử tự động trang thương mại điện tử (`Swag Labs - SauceDemo`).
+
+Mục tiêu là xây dựng dự án kiểm thử End-to-End (E2E) sử dụng framework Cypress để kiểm tra các luồng nghiệp vụ chính của người dùng từ đăng nhập đến thanh toán.
+
+**Yêu cầu chức năng (Kịch bản kiểm thử):**
+1. **`Login Test (login_spec.cy.js)`**:
+    * **Đăng nhập thành công:** Kiểm tra người dùng đăng nhập với tài khoản hợp lệ (`standard_user`), hệ thống chuyển hướng đúng vào trang sản phẩm.
+    * **Đăng nhập thất bại:** Kiểm tra hệ thống hiển thị thông báo lỗi chính xác khi nhập sai tài khoản hoặc mật khẩu.
+
+2. **`Cart & Checkout Test (cart_spec.cy.js)`**:
+    * **Thêm/Xóa giỏ hàng:** Kiểm tra chức năng thêm sản phẩm vào giỏ (icon hiển thị số lượng) và xóa sản phẩm khỏi giỏ (số lượng về 0).
+    * **Sắp xếp sản phẩm:** Kiểm tra bộ lọc giá từ thấp đến cao (Low to High), đảm bảo sản phẩm đầu tiên có giá thấp nhất.
+    * **Quy trình thanh toán:** Kiểm tra luồng điền thông tin giao hàng (`First Name`, `Last Name`, `Zip`) và hoàn tất đơn hàng.
+
+### 2. Cấu trúc dự án
+Dự án được quản lý bằng **NPM** và **Cypress**, tuân thủ cấu trúc chuẩn:
+
+```bash
+cypress/
+├── e2e/
+│   ├── login_spec.cy.js      # Kịch bản kiểm thử chức năng Đăng nhập
+│   ├── cart_spec.cy.js       # Kịch bản kiểm thử Giỏ hàng & Thanh toán
+│   │
+├── fixtures/                 # Dữ liệu mẫu (nếu có)
+└── support/                  # Các cấu hình hỗ trợ chung
+├── cypress.config.js             # File cấu hình chính của Cypress
+├── package.json                  # Khai báo thư viện Cypress và scripts
+
+```
+### 3. Minh chứng
+1. **Minh chứng 1: Login Test**:
+<img width="433" height="341" alt="Ảnh chụp màn hình 2026-01-14 161431" src="https://github.com/user-attachments/assets/dcf70535-7595-40a8-b8f1-04b9d80ddd31" />
+
+2. **Minh chứng 2: Cart & Checkout Test**:
+<img width="433" height="341" alt="Ảnh chụp màn hình 2026-01-14 161405" src="https://github.com/user-attachments/assets/2db327b7-aa38-41a2-a6b4-307f88ff39d5" />
 
 
 Copyright © 2026 - Nguyen.DinhTran. Created for educational purpose.
