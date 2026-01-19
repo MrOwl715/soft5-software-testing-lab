@@ -83,6 +83,20 @@ cypress/
 2. **Minh chứng 2: Cart & Checkout Test**:
 <img width="433" height="341" alt="Ảnh chụp màn hình 2026-01-14 161405" src="https://github.com/user-attachments/assets/2db327b7-aa38-41a2-a6b4-307f88ff39d5" />
 
+## BÀI TẬP KIỂM TRA JUNIT VỚI KỸ THUẬT EP, DT, BVA VÀ TÍNH ĐỘ BAO PHỦ
+### 1. Mô tả bài toán
+**Đề bài**: Dùng phần code unit test trong bài tập trước để áp dụng kỹ thuật EP, DT, BVA và tính độ bao phủ. Sử dụng AI để đánh giá và cải thiện code unit test. Sử dụng công cụ để đo độ bao phủ
+### 2. KẾT QUẢ
+1. **Kỹ thuật DT, EP, BVA**:
+* **Tính tổ chức**: Sử dụng test theo nhóm hành vi thay vì test rời rạc
+* **Cover được vùng giá trị (EP).**
+* **Cover được vùng giá trị (BVA - thông qua các giá trị 7.999, 8.0, 10.0, 10.1).**
+* **Cover được vùng giá trị (DT - qua case Mixed và Edge cases).**
+* **Chấm điểm:** 9.5/10
+2. **Tính độ bao phủ**:
+* Sử dụng thư viện Jacoco để đo độ bao phủ
+* Độ bao phủ 100% 
+![alt text](Assets/Jacoco.png)
 
 Copyright © 2026 - Nguyen.DinhTran. Created for educational purpose.
 
